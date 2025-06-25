@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/4de7b5ab4f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Desserts Shopping Cart</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="titleBox">
+        <h1>Desserts</h1>
+        <div class="cartIconBox">
+          <span class="material-symbols-outlined cartIcon">shopping_cart</span>
+          <span class="iconQuantity">0</span>
+        </div>
+      </div>
+
+      <div class="cart">
+        <h3>Cart<span class="cartQty">(0)</span></h3>
+        <div class="emptyStatus">
+          <img src="assets/images/illustration-empty-cart.svg" alt="" />
+          <p>It's empty now...</p>
+        </div>
+        <div class="itemList">
+          <!-- <div class="item">
+            <h4>baklava</h4>
+            <div>
+              <span class="itemQty">2x</span>
+              <span class="itemPrice">@4.00</span>
+              <span class="itemTotalPrice">$8.00</span>
+            </div>
+            <button class="removeBtn">
+              <img src="assets/images/icon-remove-item.svg" alt="" />
+            </button>
+          </div>
+          <div class="item">
+            <h4>baklava</h4>
+            <div>
+              <span class="itemQty">2x</span>
+              <span class="itemPrice">@4.00</span>
+              <span class="itemTotalPrice">$8.00</span>
+            </div>
+            <button class="removeBtn">
+              <img src="assets/images/icon-remove-item.svg" alt="" />
+            </button>
+          </div> -->
+        </div>
+        <!-- <div class="check">
+          <div class="totalPriceBox">
+            <span>Order Total</span>
+            <span class="totalPrice">$46.50</span>
+          </div>
+          <div class="notation">
+            <img src="assets/images/icon-carbon-neutral.svg" alt="" />
+            <p>This is a <strong>carbon-neutral</strong> delivery</p>
+          </div>
+          <button class="confirmBtn">Confirm Order</button>
+        </div> -->
+      </div>
+      <div class="menu">
+        <div class="productList">
+          <!-- <div class="product">
+            <img
+              src="assets/images/image-waffle-desktop.jpg"
+              alt="Waffle with Berries"
+            />
+            <div class="control">
+              <button class="addToCartBtn">
+                <img src="assets/images/icon-add-to-cart.svg" alt="" />
+                <span>Add to Cart</span>
+              </button>
+              <div class="qtyController">
+                <button class="minus">-</button>
+                <span class="qty">1</span>
+                <button class="plus">+</button>
+              </div>
+            </div>
+            <div class="desc">
+              <span>Waffle</span>
+              <h4>Waffle with Berries</h4>
+              <span class="price">$6.50</span>
+            </div>
+          </div> -->
+        </div>
+      </div>
+
+      <dialog class="confirmBox">
+        <div class="confirmBoxTitle">
+          <img src="assets/images/icon-order-confirmed.svg" alt="" />
+          <h1>Order Confirmed</h1>
+          <p>We hope you enjoy your food!</p>
+        </div>
+
+        <div class="orderedList">
+          <!-- <div class="orderedItem">
+              <img src="assets/images/image-tiramisu-thumbnail.jpg" alt="" />
+              <div class="orderedItemDesc">
+                <h4>Classic Tiramisu</h4>
+                <div>
+                  <span class="orderedItemQty">1x</span>
+                  <span class="orderedItemPrice">@5.50</span>
+                </div>
+                <span class="orderedItemTotalPrice">$5.50</span>
+              </div>
+            </div>-->
+        </div>
+
+        <div class="orderTotalBox">
+          <p>Order Total</p>
+          <span class="orderTotal">$46.50</span>
+        </div>
+        <button class="modifyBtn">Modify order</button>
+      </dialog>
+    </div>
+  </body>
+</html>
