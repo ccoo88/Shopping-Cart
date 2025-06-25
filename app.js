@@ -254,9 +254,9 @@ function renderCheckBox(totalPrice) {
   const modifyBtn = document.querySelector(".modifyBtn");
 
   // 讓不支援 showModal() 的瀏覽器能夠模擬這個功能
-  if (!confirmBox.showModal) {
-    dialogPolyfill.registerDialog(confirmBox);
-  }
+  // if (!confirmBox.showModal) {
+  //   dialogPolyfill.registerDialog(confirmBox);
+  // }
   
   confirmBtn.addEventListener("click", () => {
     confirmBox.showModal();
